@@ -1,6 +1,35 @@
-header {}
+body {
+    background-color: #f8f8f8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-main {}
+header {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+
+header>img {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    background-color: red;
+}
+
+div {
+    width: 40%;
+    margin: 0% 2.5% 0% 2.5%;
+    float: left;
+    background-color: yellow;
+}
 
 h1 {
     color: #9E9E9E;
@@ -8,4 +37,11 @@ h1 {
 
 p {
     color: #C3C3C3;
+}
+
+main>img {
+    width: 50%;
+    margin: 0% 2.5% 0% 2.5%;
+    float: right;
+    background-color: blue;
 }
