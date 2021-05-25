@@ -28,6 +28,12 @@ a {
     padding: 5px 15px 5px 15px;
     text-decoration: none;
     border: 5px solid transparent;
+    /* border radius */
+}
+
+a:last-child {
+    border: 5px solid #9E9E9E;
+    border-radius: 40px;
 }
 
 main {
